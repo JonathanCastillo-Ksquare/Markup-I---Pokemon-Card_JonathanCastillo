@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700,800');
+
+body {
+    background-color: #92d1b4;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: Nunito;
+}
+
+header>p,
+header>h1 {
+    margin: 0.5rem 0 0 1.5rem;
+    padding: 0;
+    width: 100%;
+    height: 15%;
+}
+
+main {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.columnas:nth-of-type(1) {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0;
+
+}
+
+#bulb {
+    width: 35%;
+}
+
+.columnas:nth-of-type(1) p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+.columnas:nth-of-type(2) {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.columnas:nth-of-type(3) {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.squaresContainer {
+    border-left: 2px solid #afddc8;
+    padding-left: 1em;
+    padding-right: 8em;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div>.squares {
+    margin-right: 1em;
+    padding: 0.7em;
+    background-color: white;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 6px;
+    font-size: 0.45em;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 15%;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+.icono {
+    width: 2em;
+    margin-bottom: 0;
+}
+
+.base {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
